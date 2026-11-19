@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mes contacts</string>
+    <string name="title_main">Mes contacts</string>
+    <string name="title_detail">Détail du contact</string>
+    <string name="title_new">Nouveau contact</string>
+    <string name="title_map">Carte – %1$s</string>
+    <string name="action_add">Ajouter</string>
+    <string name="empty_list">Aucun contact. Appuyez sur + pour en ajouter.</string>
+    <string name="empty_search">Aucun contact ne correspond à « %1$s »</string>
+
+    <string name="hint_search">Rechercher (nom, prénom, téléphone)</string>
+    <string name="hint_last_name">Nom</string>
+    <string name="hint_first_name">Prénom</string>
+    <string name="hint_phone">Téléphone</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_latitude">Latitude</string>
+    <string name="hint_longitude">Longitude</string>
+    <string name="helper_latitude">de −90 à 90</string>
+    <string name="helper_longitude">de −180 à 180</string>
+
+    <string name="section_position">Position GPS</string>
+    <string name="position_summary">Latitude : %1$.5f   Longitude : %2$.5f</string>
+    <string name="position_none">Aucune position définie</string>
+    <string name="position_invalid">Coordonnées incomplètes ou invalides</string>
+
+    <string name="btn_call">Appeler</string>
+    <string name="btn_email">Envoyer un e-mail</string>
+    <string name="btn_pick_photo">Choisir une photo</string>
+    <string name="btn_take_photo">Prendre une photo</string>
+    <string name="btn_map">Voir sur la carte</string>
+    <string name="btn_save">Enregistrer</string>
+    <string name="btn_cancel">Annuler</string>
+
+    <string name="cd_photo">Photo du contact</string>
+    <string name="cd_back">Retour</string>
+    <string name="cd_chevron">Ouvrir le contact</string>
+    <string name="cd_has_position">Position GPS disponible</string>
+
+    <string name="error_last_name">Le nom est obligatoire</string>
+    <string name="error_first_name">Le prénom est obligatoire</string>
+    <string name="error_phone_empty">Le numéro de téléphone est obligatoire</string>
+    <string name="error_phone_invalid">Numéro de téléphone invalide</string>
+    <string name="error_email_invalid">Adresse e-mail invalide</string>
+    <string name="error_email_empty">Renseignez une adresse e-mail</string>
+    <string name="error_not_number">Valeur non numérique</string>
+    <string name="error_lat_range">La latitude doit être comprise entre −90 et 90</string>
+    <string name="error_lng_range">La longitude doit être comprise entre −180 et 180</string>
+    <string name="error_lat_missing">Latitude manquante</string>
+    <string name="error_lng_missing">Longitude manquante</string>
+
+    <string name="msg_saved">Contact enregistré</string>
+    <string name="msg_coords_invalid">Corrigez les coordonnées avant d\'afficher la carte</string>
+    <string name="msg_photo_selection_cancelled">Sélection de la photo annulée</string>
+    <string name="msg_photo_capture_cancelled">Prise de photo annulée</string>
+    <string name="msg_photo_load_failed">Impossible de charger cette image</string>
+    <string name="msg_no_gallery">Aucune application de galerie disponible</string>
+    <string name="msg_no_camera_app">Aucune application d\'appareil photo disponible</string>
+    <string name="msg_camera_unavailable">La caméra est indisponible sur cet appareil</string>
+    <string name="msg_camera_permission_denied">Permission de la caméra refusée : impossible de prendre une photo</string>
+    <string name="msg_no_dialer">Aucune application d\'appel compatible</string>
+    <string name="msg_no_mail_app">Aucune application de messagerie compatible</string>
+    <string name="msg_invalid_contact">Contact introuvable</string>
+
+    <string name="map_no_position">%1$s n\'a aucune position GPS définie.\nSaisissez une latitude et une longitude dans la fiche du contact.</string>
+    <string name="map_invalid_position">Les coordonnées de ce contact sont invalides.</string>
+    <string name="map_no_api_key">Clé Google Maps non configurée.
+Ajoutez MAPS_API_KEY=… dans local.properties puis recompilez.</string>
+</resources>
